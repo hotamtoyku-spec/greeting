@@ -12,6 +12,6 @@ bot.on("message", (msg) => {
 });
 
 // 🔥 Har kuni 09:00 da jo‘natish
-cron.schedule("0 9 * * *", () => {
+cron.schedule("30 17 * * *", () => {
   bot.sendMessage(CHAT_ID, "Assalomu alaykum! Bugun ahvolingiz yaxshimi? 😊");
 });
